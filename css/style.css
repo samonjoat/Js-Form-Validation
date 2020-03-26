@@ -5,43 +5,179 @@ body{
     background-color: #cc3300;
 }
 
-#form-section{
-    background-color: white;
-    max-width: 400px;
-    height: 500px;
-    margin: 120px 0 0 500px;
-    border-radius: 25px;
-    padding: 20px;
+
+@media only screen and (min-width: 1200px){
+    #form-section{
+        background-color: white;
+        max-width: 400px;
+        margin: 120px 0 0 500px;
+        border-radius: 25px;
+        padding: 50px 20px 50px 20px;
+    }
+    
+    label{
+        margin-top: 20px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    
+    input{
+        width: 100%;
+        border-radius: 10px;
+        height: 30px;
+        padding: 20px;
+    }
+    
+    button{
+        width: 100%;
+        background-color: #cc3300;
+        color: white;
+        margin-top: 30px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    #error-id{
+        width: 100%;
+        padding: 0px;
+        margin: 10px 0 10px 0;
+        background-color: #cc3300;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
 }
 
-label{
-    margin-top: 20px;
-    width: 100%;
-    margin-top: 25px;
+
+@media only screen and (min-width: 1020px) and (max-device-width: 1200px){
+    #form-section{
+        background-color: white;
+        width: 400px;
+        margin: auto;
+        margin-top: 50px; margin-bottom: 50px;
+        border-radius: 25px;
+        padding: 50px 20px 50px 20px;
+    }
+    
+    label{
+        margin-top: 20px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    
+    input{
+        width: 100%;
+        border-radius: 10px;
+        height: 30px;
+        padding: 20px;
+    }
+    
+    button{
+        width: 100%;
+        background-color: #cc3300;
+        color: white;
+        margin-top: 30px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    #error-id{
+        width: 100%;
+        padding: 0px;
+        margin: 10px 0 10px 0;
+        background-color: #cc3300;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
 }
 
-input{
-    width: 100%;
-    border-radius: 10px;
-    height: 30px;
-    padding: 20px;
+@media only screen and (min-width: 750px) and (max-device-width: 1020px){
+    #form-section{
+        background-color: white;
+        width: 400px;
+        margin: auto;
+        margin-top: 50px; margin-bottom: 50px;
+        border-radius: 25px;
+        padding: 50px 20px 50px 20px;
+    }
+    
+    label{
+        margin-top: 20px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    
+    input{
+        width: 100%;
+        border-radius: 10px;
+        height: 30px;
+        padding: 20px;
+    }
+    
+    button{
+        width: 100%;
+        background-color: #cc3300;
+        color: white;
+        margin-top: 30px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    #error-id{
+        width: 100%;
+        padding: 0px;
+        margin: 10px 0 10px 0;
+        background-color: #cc3300;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
 }
 
-button{
-    width: 100%;
-    background-color: #cc3300;
-    color: white;
-    margin-top: 30px;
-    height: 40px;
-    border-radius: 8px;
-    border: none;
+@media only screen and (max-width: 750px){
+    #form-section{
+        background-color: white;
+        max-width: 400px;
+        margin: 50px 10px 50px 10px;
+        border-radius: 25px;
+        padding: 50px 20px 50px 20px;
+    }
+    
+    label{
+        margin-top: 20px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    
+    input{
+        width: 100%;
+        border-radius: 10px;
+        height: 30px;
+        padding: 20px;
+    }
+    
+    button{
+        width: 100%;
+        background-color: #cc3300;
+        color: white;
+        margin-top: 30px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    #error-id{
+        width: 100%;
+        padding: 0px;
+        margin: 10px 0 10px 0;
+        background-color: #cc3300;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
 }
 
-#error-id{
-    width: 100%;
-    padding: 0px;
-    margin: 10px 0 10px 0;
-    background-color: #cc3300;
-    color: white;
-    transition: all 0.5s ease;
-}

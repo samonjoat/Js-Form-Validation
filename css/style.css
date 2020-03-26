@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Da 2', cursive;
+    background-color: #cc3300;
+}
+
+#form-section{
+    background-color: white;
+    max-width: 400px;
+    height: 500px;
+    margin: 120px 0 0 500px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+label{
+    margin-top: 20px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+input{
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    padding: 20px;
+}
+
+button{
+    width: 100%;
+    background-color: #cc3300;
+    color: white;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+#error-id{
+    width: 100%;
+    padding: 0px;
+    margin: 10px 0 10px 0;
+    background-color: #cc3300;
+    color: white;
+    transition: all 0.5s ease;
+}
